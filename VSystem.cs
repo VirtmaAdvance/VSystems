@@ -17,7 +17,10 @@ namespace VSystems
 		/// Locks the current user and returns to the Windows login screen.
 		/// </summary>
 		public static void Lock() => LockWorkStation();
-
+		/// <summary>
+		/// Locks the machine.
+		/// </summary>
+		/// <returns>a <see cref="bool"/> value representing the status of the operation.</returns>
 		[DllImport("user32.dll")]
 		private static extern bool LockWorkStation();
 
