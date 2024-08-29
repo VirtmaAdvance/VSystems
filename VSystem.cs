@@ -2,6 +2,9 @@
 
 namespace VSystems
 {
+	/// <summary>
+	/// Manages system operations and information.
+	/// </summary>
 	public class VSystem
 	{
 		/// <summary>
