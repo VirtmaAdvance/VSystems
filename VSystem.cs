@@ -5,7 +5,6 @@ namespace VSystems
 	public class VSystem
 	{
 
-
 		/// <summary>
 		/// Locks the current user and returns to the Windows login screen.
 		/// </summary>
