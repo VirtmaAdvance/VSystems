@@ -15,6 +15,10 @@ namespace VSystems
 		/// Gets the current domain name the current user is connected to.
 		/// </summary>
 		public static string DomainName => Environment.UserDomainName;
+		/// <summary>
+		/// Gets the machine name.
+		/// </summary>
+		public static string MachineName => Environment.MachineName;
 
 		/// <summary>
 		/// Locks the current user and returns to the Windows login screen.
