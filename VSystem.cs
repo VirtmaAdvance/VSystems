@@ -12,6 +12,10 @@ namespace VSystems
 		/// </summary>
 		public static string Username => Environment.UserName;
 		/// <summary>
+		/// Gets teh current working directory.
+		/// </summary>
+		public static string CurrentDirectory => Environment.CurrentDirectory;
+		/// <summary>
 		/// Gets the current domain name the current user is connected to.
 		/// </summary>
 		public static string DomainName => Environment.UserDomainName;
